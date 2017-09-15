@@ -27,12 +27,7 @@ Final results:
 
 Images
 
-![alt text][solidWhiteCurve.jpg]
-![alt text][solidWhiteRight.jpg]
-![alt text][solidYellowCurve.jpg]
-![alt text][solidYellowCurve2.jpg]
-![alt text][solidYellowLeft.jpg]
-![alt text][whiteCarLaneSwitch.jpg]
+![alt-text-1](test_imges_output/solidWhiteCurve.jpg "solidWhiteCurve.jpg") ![alt-text-2](test_iamges_output/solidWhiteRight.jpg "solidWhiteRight.jpg")
 
 Videos:
 
