@@ -1,46 +1,40 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
+### 1. Pipeline Description
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
+My pipeline consisted of following steps. 
+* Gray Scale: convert image in to gray scale.
+* Gaussian Blur: apply Gaussian Blur to smooth gray scaled image.
+* Canny edge detection: apply Canny Edge detection to generate edges.
+* Mask: apply a mask to only kee
+* Hough Transform:
+* Draw lines: 
+    *first
+    *second
 
----
+Final results:
 
-**Finding Lane Lines on the Road**
+Images
 
-The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
-* Reflect on your work in a written report
+![solidWhiteCurve.jpg][test_iamges_output/solidWhiteCurve.jpg]
+![solidWhiteRight.jpg][test_iamges_output/solidWhiteRight.jpg]
+![solidYellowCurve.jpg][test_iamges_output/solidYellowCurve.jpg]
+![solidYellowCurve2.jpg][test_iamges_output/solidYellowCurve2.jpg]
+![solidYellowLeft.jpg][test_iamges_output/solidYellowLeft.jpg]
+![whiteCarLaneSwitch.jpg][test_iamges_output/whiteCarLaneSwitch.jpg]
 
+Videos:
 
-[//]: # (Image References)
+![solidWhiteRight.mp4][test_videos_output/solidWhiteRight.mp4]
+![solidYellowLeft.mp4][test_videos_output/solidYellowLeft.mp4]
+![challenge.mp4][test_videos_output/challenge.mp4]
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+### 2. Shortcomings
 
----
-
-### Reflection
-
-### 1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
-
-My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .... 
-
-In order to draw a single line on the left and right lanes, I modified the draw_lines() function by ...
-
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
-
-
-### 2. Identify potential shortcomings with your current pipeline
-
-
-One potential shortcoming would be what would happen when ... 
-
-Another shortcoming could be ...
+One potential shortcoming is t
 
 
-### 3. Suggest possible improvements to your pipeline
+### 3. Possible Improvements
 
 A possible improvement would be to ...
 
