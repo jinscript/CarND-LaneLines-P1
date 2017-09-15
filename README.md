@@ -1,14 +1,3 @@
-[solidWhiteCurve.jpg]: test_imges_output/solidWhiteCurve.jpg
-[solidWhiteRight.jpg]: test_iamges_output/solidWhiteRight.jpg
-[solidYellowCurve.jpg]: test_images_output/solidYellowCurve.jpg
-[solidYellowCurve2.jpg]: test_images_output/solidYellowCurve2.jpg
-[solidYellowLeft.jpg]: test_images_output/solidYellowLeft.jpg
-[whiteCarLaneSwitch.jpg]: test_images_output/whiteCarLaneSwitch.jpg
-
-[solidWhiteRight.mp4]: test_videos_output/solidWhiteRight.mp4
-[solidYellowLeft.mp4]: test_videos_output/solidYellowLeft.mp4
-[challenge.mp4]: test_videos_output/challenge.mp4
-
 # **Finding Lane Lines on the Road** 
 
 ### 1. Pipeline Description
@@ -25,16 +14,12 @@ My pipeline consisted of following steps.
 
 Final results:
 
-Images
-
-<img src="test_images_output/solidWhiteCurve.jpg" width="48">
-<img src="test_images_output/solidWhiteRight.jpg" width="48">
-
-Videos:
-
-![alt text][solidWhiteRight.mp4]
-![alt text][solidYellowLeft.mp4]
-![alt text][challenge.mp4]
+<img src="test_images_output/solidWhiteCurve.jpg" width="400">
+<img src="test_images_output/solidWhiteRight.jpg" width="400">
+<img src="test_images_output/solidYellowCurve.jpg" width="400">
+<img src="test_images_output/solidYellowCurve2.jpg" width="400">
+<img src="test_images_output/solidYellowLeft.jpg" width="400">
+<img src="test_images_output/whiteCarLaneSwitch.jpg" width="400">
 
 ### 2. Shortcomings
 
