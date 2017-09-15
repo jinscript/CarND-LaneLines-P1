@@ -1,5 +1,12 @@
 # **Finding Lane Lines on the Road** 
 
+### 0. Setup
+* Clone this repo.
+* Download [docker image](https://github.com/udacity/CarND-Term1-Starter-Kit)
+* Start docker and notebook
+    ```
+    docker run -it --rm -p 8888:8888 -v `pwd`:/src udacity/carnd-term1-starter-kit P1.ipynb
+    ```
 ### 1. Pipeline Description
 
 My pipeline consisted of following steps. 
@@ -55,4 +62,4 @@ If there is no line segment close to the bottom of the image, it is very likely 
 ### 3. Possible Improvements
 
 A possible fix to the shortcoming is that we can cache generated lane line in previous frames
-of the video. If new lane line gets generated, we can fall back to the previous one.
+of the video. If no new lane line gets generated, we can fall back to the previous one.
