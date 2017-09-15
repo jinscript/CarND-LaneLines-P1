@@ -13,15 +13,15 @@ Following steps are taken for generating one line for left lane and one line for
 Taking line for left lane as an example.
     1. remove outliers with outstanding slope
     
-    Rejecting all lines with slope not in the range of a heuristic (-0.7) ± delta (0.2).
+        Rejecting all lines with slope not in the range of a heuristic (-0.7) ± delta (0.2).
     
     2. extrapolate lines
     
-    Extrapolate remaining lines to full height of the mask.
+        Extrapolate remaining lines to full height of the mask.
     
     3. remove outliers with outstanding position
     
-    Since all remaining line have similar slope, I use mid points of the indicator of line position.
+        Since all remaining line have similar slope, I use mid points of the indicator of line position.
 I removed all lines with x value not in the range of mean ± 2 * std.
     
     4. average all remaining lines and generate the final line
