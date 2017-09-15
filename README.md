@@ -27,7 +27,7 @@ Final results:
 
 Images
 
-![alt-text-1](test_imges_output/solidWhiteCurve.jpg "solidWhiteCurve.jpg") ![alt-text-2](test_iamges_output/solidWhiteRight.jpg "solidWhiteRight.jpg")
+![alt-text-1](test_images_output/solidWhiteCurve.jpg "solidWhiteCurve.jpg") ![alt-text-2](test_images_output/solidWhiteRight.jpg "solidWhiteRight.jpg")
 
 Videos:
 
