@@ -16,18 +16,18 @@ Final results:
 
 Images
 
-![solidWhiteCurve.jpg](test_iamges_output/solidWhiteCurve.jpg)
-![solidWhiteRight.jpg](test_iamges_output/solidWhiteRight.jpg)
-![solidYellowCurve.jpg](test_iamges_output/solidYellowCurve.jpg)
-![solidYellowCurve2.jpg](test_iamges_output/solidYellowCurve2.jpg)
-![solidYellowLeft.jpg](test_iamges_output/solidYellowLeft.jpg)
-![whiteCarLaneSwitch.jpg](test_iamges_output/whiteCarLaneSwitch.jpg)
+![solidWhiteCurve.jpg](/test_iamges_output/solidWhiteCurve.jpg)
+![solidWhiteRight.jpg](/test_iamges_output/solidWhiteRight.jpg)
+![solidYellowCurve.jpg](/test_iamges_output/solidYellowCurve.jpg)
+![solidYellowCurve2.jpg](/test_iamges_output/solidYellowCurve2.jpg)
+![solidYellowLeft.jpg](/test_iamges_output/solidYellowLeft.jpg)
+![whiteCarLaneSwitch.jpg](/test_iamges_output/whiteCarLaneSwitch.jpg)
 
 Videos:
 
-![solidWhiteRight.mp4](test_videos_output/solidWhiteRight.mp4)
-![solidYellowLeft.mp4](test_videos_output/solidYellowLeft.mp4)
-![challenge.mp4](test_videos_output/challenge.mp4)
+![solidWhiteRight.mp4](/test_videos_output/solidWhiteRight.mp4)
+![solidYellowLeft.mp4](/test_videos_output/solidYellowLeft.mp4)
+![challenge.mp4](/test_videos_output/challenge.mp4)
 
 ### 2. Shortcomings
 
