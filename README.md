@@ -26,6 +26,8 @@ I removed all lines with x value not in the range of mean ± 2 * std.
     
     4. average all remaining lines and generate the final line
 
+    5. do not produce the final line if no lines pass previous steps.
+
 Repeat the same step for right lane with 0.7 as the heuristic for slope.
 
 Final results:
@@ -36,19 +38,21 @@ Images
 |:---:|:---:|:---:|
 | ![solidYellowCurve2](test_images_output/solidYellowCurve2.jpg) | ![solidYellowLeft](test_images_output/solidYellowLeft.jpg) | ![whiteCarLaneSwitch](test_images_output/whiteCarLaneSwitch.jpg) |
 
-Videos: Please clone this repo and check them out at ./test_videos_output
+Videos - Please clone this repo and check them out at ./test_videos_output
 
 ### 2. Shortcomings
 
-| error1 | error2 | error3 |
-|:---:|:---:|:---:|
-| ![error1](errors/error1.png) | ![error2](errors/error2.png) | ![error3](errors/error3.png) |
+| error1 | error2 |
+|:---:|:---:|
+| ![error1](errors/error1.png) | ![error2](errors/error2.png) |
 
-One potential shortcoming is t
-
+One potential shortcoming is that the detector performs not well on curved dashed lane lines
+if there is no line segment close to the bottom of the image.
+Since I only select lines with slope close to a heuristic, the top half of curve lane
+(usually has very different slope) are discarded.
+If there is no line segment close to the bottom of the image, it is very likely that no final line will be generated.
 
 ### 3. Possible Improvements
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+A possible fix to the shortcoming is that we can cache generated lane line in previous frames
+of the video. If new lane line gets generated, we can fall back to the previous one.
