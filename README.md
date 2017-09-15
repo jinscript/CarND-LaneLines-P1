@@ -14,12 +14,9 @@ My pipeline consisted of following steps.
 
 Final results:
 
-<img src="test_images_output/solidWhiteCurve.jpg" width="400">
-<img src="test_images_output/solidWhiteRight.jpg" width="400">
-<img src="test_images_output/solidYellowCurve.jpg" width="400">
-<img src="test_images_output/solidYellowCurve2.jpg" width="400">
-<img src="test_images_output/solidYellowLeft.jpg" width="400">
-<img src="test_images_output/whiteCarLaneSwitch.jpg" width="400">
+| ![solidWhiteCurve](test_images_output/solidWhiteCurve.jpg) | ![solidWhiteRight](test_images_output/solidWhiteRight.jpg) | ![solidYellowCurve](test_images_output/solidYellowCurve.jpg) |
+|:---:|:---:|:---:|
+| ![solidYellowCurve2](test_images_output/solidYellowCurve2.jpg) | ![solidYellowLeft](test_images_output/solidYellowLeft.jpg) | ![whiteCarLaneSwitch](test_images_output/whiteCarLaneSwitch.jpg) |
 
 ### 2. Shortcomings
 
