@@ -2,22 +2,22 @@
 
 ### 0. Setup
 * Clone this repo.
-* Download [docker image](https://github.com/udacity/CarND-Term1-Starter-Kit)
-* Start docker and notebook
+* Download [docker image](https://github.com/udacity/CarND-Term1-Starter-Kit).
+* Start docker and notebook.
     ```
     docker run -it --rm -p 8888:8888 -v `pwd`:/src udacity/carnd-term1-starter-kit P1.ipynb
     ```
 ### 1. Pipeline Description
 
-My pipeline consisted of following steps. 
+My pipeline is consisted of following steps:
 * Gray Scale: convert image in to gray scale.
 * Gaussian Blur: apply Gaussian Blur to smooth gray scaled image.
 * Canny Edge Detection: apply Canny Edge detection to generate edges.
-* Mask: apply a mask to only keep edges inside bottom trapezoid.
+* Mask: apply a mask to only keep edges inside a trapezoid at the bottom of the image.
 * Hough Transform: generate lines from edges.
 * Draw lines:
-Following steps are taken for generating one line for left lane and one line for right lane.
-Taking line for left lane as an example.
+Following steps are taken for generating a single line for left lane and another single line for right lane.
+Taking left lane as an example.
     1. remove outliers with outstanding slope
     
         Rejecting all lines with slope not in the range of a heuristic (-0.7) ± delta (0.2).
@@ -28,7 +28,7 @@ Taking line for left lane as an example.
     
     3. remove outliers with outstanding position
     
-        Since all remaining line have similar slope, I use mid points of the indicator of line position.
+        Since all remaining line have similar slope, I use mid point of a line as the indicator of its position.
 I removed all lines with x value not in the range of mean ± 2 * std.
     
     4. average all remaining lines and generate the final line
@@ -54,12 +54,12 @@ Videos - Please clone this repo and check them out at ./test_videos_output
 | ![error1](errors/error1.png) | ![error2](errors/error2.png) |
 
 One potential shortcoming is that the detector performs not well on curved dashed lane lines
-if there is no line segment close to the bottom of the image.
+when there is no line segment close to the bottom of the image.
 Since I only select lines with slope close to a heuristic, the top half of curve lane
-(usually has very different slope) are discarded.
+(usually has very different slope) are most likely discarded.
 If there is no line segment close to the bottom of the image, it is very likely that no final line will be generated.
 
 ### 3. Possible Improvements
 
-A possible fix to the shortcoming is that we can cache generated lane line in previous frames
+A possible fix to the shortcoming is that we can cache generated lines in previous frames
 of the video. If no new lane line gets generated, we can fall back to the previous one.
