@@ -14,11 +14,22 @@ My pipeline consisted of following steps.
 
 Final results:
 
+Images
+
 | ![solidWhiteCurve](test_images_output/solidWhiteCurve.jpg) | ![solidWhiteRight](test_images_output/solidWhiteRight.jpg) | ![solidYellowCurve](test_images_output/solidYellowCurve.jpg) |
 |:---:|:---:|:---:|
 | ![solidYellowCurve2](test_images_output/solidYellowCurve2.jpg) | ![solidYellowLeft](test_images_output/solidYellowLeft.jpg) | ![whiteCarLaneSwitch](test_images_output/whiteCarLaneSwitch.jpg) |
 
+Videos:
+
+<video width="320" height="240" controls>
+  <source src="test_videos_output/solidWhiteRight.mp4" type="video/mp4">
+</video>
+
 ### 2. Shortcomings
+
+
+
 
 One potential shortcoming is t
 
