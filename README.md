@@ -27,8 +27,8 @@ Final results:
 
 Images
 
-![alt-text-1](test_images_output/solidWhiteCurve.jpg "solidWhiteCurve.jpg" | width=100)
-![alt-text-2](test_images_output/solidWhiteRight.jpg "solidWhiteRight.jpg" | width=100)
+<img src="test_images_output/solidWhiteCurve.jpg" width="48">
+<img src="test_images_output/solidWhiteRight.jpg" width="48">
 
 Videos:
 
