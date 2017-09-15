@@ -1,3 +1,14 @@
+[solidWhiteCurve.jpg]: test_imges_output/solidWhiteCurve.jpg
+[solidWhiteRight.jpg]: test_iamges_output/solidWhiteRight.jpg
+[solidYellowCurve.jpg]: test_images_output/solidYellowCurve.jpg
+[solidYellowCurve2.jpg]: test_images_output/solidYellowCurve2.jpg
+[solidYellowLeft.jpg]: test_images_output/solidYellowLeft.jpg
+[whiteCarLaneSwitch.jpg]: test_images_output/whiteCarLaneSwitch.jpg
+
+[solidWhiteRight.mp4]: test_videos_output/solidWhiteRight.mp4
+[solidYellowLeft.mp4]: test_videos_output/solidYellowLeft.mp4
+[challenge.mp4]: test_videos_output/challenge.mp4
+
 # **Finding Lane Lines on the Road** 
 
 ### 1. Pipeline Description
@@ -16,18 +27,18 @@ Final results:
 
 Images
 
-[solidWhiteCurve.jpg]: test_imges_output/solidWhiteCurve.jpg
-[solidWhiteRight.jpg]: test_iamges_output/solidWhiteRight.jpg
-[solidYellowCurve.jpg]: test_images_output/solidYellowCurve.jpg
-[solidYellowCurve2.jpg]: test_images_output/solidYellowCurve2.jpg
-[solidYellowLeft.jpg]: test_images_output/solidYellowLeft.jpg
-[whiteCarLaneSwitch.jpg]: test_images_output/whiteCarLaneSwitch.jpg
+![alt text][solidWhiteCurve.jpg]
+![alt text][solidWhiteRight.jpg]
+![alt text][solidYellowCurve.jpg]
+![alt text][solidYellowCurve2.jpg]
+![alt text][solidYellowLeft.jpg]
+![alt text][whiteCarLaneSwitch.jpg]
 
 Videos:
 
-[solidWhiteRight.mp4]: test_videos_output/solidWhiteRight.mp4
-[solidYellowLeft.mp4]: test_videos_output/solidYellowLeft.mp4
-[challenge.mp4]: test_videos_output/challenge.mp4
+![alt text][solidWhiteRight.mp4]
+![alt text][solidYellowLeft.mp4]
+![alt text][challenge.mp4]
 
 ### 2. Shortcomings
 
